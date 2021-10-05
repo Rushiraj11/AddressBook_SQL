@@ -17,3 +17,11 @@ zip int not null,
 phoneNumber long not null,
 email varchar(100) not null );
 desc AddressBook;
+
+---- UC3
+select *from AddressBook ;
+ insert into AddressBook (firstname, lastname, address,city, state, zip,phoneNumber,email) 
+ values ('Vaibhav', 'Deshmukh','Bibvewadi','Pune','Maharashtra',411043,8485266371,'vabd@gmail.com'),
+ ('Rahul','shinde','Tarabaipark','Kolhapur','Maharashtra',410023,7826495316,'rahsk12@gmail.com'),
+ ('Shubham','Karnavat','Mithai','vadodara','Gujarat',143018,7945863218,'Sko8E#@gmail.com'),
+ ('Jasmeet','Kaur','Jala','Amritsar','Punjab',3021402,9854763254,'J991@gmail.com');
