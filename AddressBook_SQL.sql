@@ -38,3 +38,8 @@ delete from addressBook where lastname='Kaur';
  select * from AddressBook
  where city = 'Pune' or State='Maharashtra';
 
+
+-- UC7
+ select * from AddressBook;
+select count(firstname) from AddressBook 
+where city = 'Sangli' or state = 'Maharashtra';
