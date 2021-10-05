@@ -34,3 +34,7 @@ update AddressBook set  city='Sangli' where firstname='Rahul';
 select * from AddressBook;
 delete from addressBook where lastname='Kaur';
 
+--- UC6
+ select * from AddressBook
+ where city = 'Pune' or State='Maharashtra';
+
