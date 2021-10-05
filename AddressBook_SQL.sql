@@ -25,3 +25,12 @@ select *from AddressBook ;
  ('Rahul','shinde','Tarabaipark','Kolhapur','Maharashtra',410023,7826495316,'rahsk12@gmail.com'),
  ('Shubham','Karnavat','Mithai','vadodara','Gujarat',143018,7945863218,'Sko8E#@gmail.com'),
  ('Jasmeet','Kaur','Jala','Amritsar','Punjab',3021402,9854763254,'J991@gmail.com');
+ 
+ ------ UC4
+ select *from AddressBook ;
+update AddressBook set  city='Sangli' where firstname='Rahul';
+
+----- UC5
+select * from AddressBook;
+delete from addressBook where lastname='Kaur';
+
